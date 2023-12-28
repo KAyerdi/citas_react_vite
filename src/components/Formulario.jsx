@@ -38,17 +38,17 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 
             setError(true)
             return;
-        } 
+        }
         
         setError(false)
 
 
         // Objeto de Paciente
         const objetoPaciente = {
-            nombre, 
-            propietario, 
-            email, 
-            fecha, 
+            nombre,
+            propietario,
+            email,
+            fecha,
             sintomas
         }
 
